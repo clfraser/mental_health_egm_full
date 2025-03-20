@@ -24,7 +24,7 @@ library(snakecase) # to reformat strings
 library(here)
 
 ## Set working directory - only need to do this if you can't get into the R project
-#setwd("/PHI_conf/PHSci/Catriona/EGM/Mental_health_EGM/")
+#setwd("/PHI_conf/PHSci/Catriona/EGM/self_harm_egm_full/")
 
 ## Load quantitative data and add review type column
 df_quant <- read_xlsx(here("data/230320 SH Phase 2 full data extract.xlsx"))  %>%
