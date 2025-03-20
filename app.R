@@ -21,6 +21,16 @@ ui <-
   fluidPage(
 tagList(
   tags$html(lang = "en"), # Set the language of the page - important for accessibility
+  
+  # WHEN THE NEW WEPAGE IS LIVE, UNCOMMENT LINES 27 to 31 AND COMMENT OUT LINES 34 to 76.
+  
+  # h1("This evidence and gap map has moved"),
+  # p("Please go to its new home on the",
+  #   tags$a(href = "https://publichealthscotland.scot/population-health/mental-health/prevention-of-mental-ill-health-and-improved-wellbeing/mental-health-evidence-and-addressing-gaps/",
+  #         target = "_blank",
+  #         tags$b("Public Health Scotland website")))
+  
+
 # Specify most recent fontawesome library - change version as needed
 tags$style("@import url(https://use.fontawesome.com/releases/v6.2.0/css/all.css);"),
 # Add note that dashboard is in development
@@ -46,22 +56,22 @@ navbarPage(
                                  includeCSS("www/css/value_box.css"), # valueBox for headline figures
                                  includeCSS("www/css/info_box.css"), # infoBox for summary page boxes
                                  includeCSS("www/css/js_tree_r.css") # for heirarchical checkboxes
-      
+
     ,  # CSS stylesheet
     tags$head(
       tags$script(src="js/index.js")
     ), # Include script that allows you to jump between tabs using a link
     collapsible = TRUE, # Make navigation bar collapse on smaller screens
     tags$link(rel = "shortcut icon", href = "favicon_phs.ico"), # Icon for browser tab
-    
+
 ),
 
 # Order of tabs --------------------------------
 
-homepageTab,
-mainTab,
-glossaryTab,
-linksTab,
+ homepageTab,
+ mainTab,
+ glossaryTab,
+ linksTab,
 
 ) # navbar
 ) # taglist
