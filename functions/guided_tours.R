@@ -47,12 +47,6 @@ egm_guide <- Cicerone$
     "Clear all selected filters."
   )$
   step(
-    el = "[data-value = 'table']",
-    title = "Table of review details",
-    description = "Click on the table tab to see details of the reviews included in the EGM. Any filters applied to the EGM are also applied to the table.",
-    is_id = FALSE
-  )$
-  step(
     el = "video_link_button",
     title = "Looking for more detail?",
     description = "Click to see a walkthrough video and an example of how to use the EGM."
