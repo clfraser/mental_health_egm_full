@@ -1,18 +1,18 @@
-# WRITE APP NAME HERE
+# Self-harm in children and young people evidence and gap map (full version)
 
-PHS shiny app template
+As at 21st March, this app has been published the the [Public Health Scotland website] (https://publichealthscotland.scot/population-health/mental-health/prevention-of-mental-ill-health-and-improved-wellbeing/mental-health-evidence-and-addressing-gaps/)
+However, it will soon be replaced by two other evidence and gap maps at the same address. These can be found in the following repos: [mental_health_egm_stripped] (https://github.com/clfraser/mental_health_egm_stripped) and [mental_wellbeing_egm] (https://github.com/clfraser/mental_wellbeing_egm).
 
-## Instructions for use
+## Structure of the app
 
 * Run the app by opening app.R and clicking 'Run' in the top right hand corner
 * `setup.R` contains required packages and is where any data should be read in
-* `data` is a folder for storing data to be read in
-* `www` contains the app stylesheet and PHS icon images
-* `pages` should contain an R script for each tab in your app with the content of that tab. This needs to be linked back to the ui in app.R
+* `data` is a folder for storing data to be read in (not available on GitHub). This data is processed in the data_preparation script.
+* `www` contains the app stylesheets and PHS icon images
+* `server' contains server functions
+* 'ui contains UI functions
 * `functions` contains R scripts with functions for the app
 
-## PHS shiny app examples
+## More information
 
-* [COVID-19 dashboard](https://github.com/Public-Health-Scotland/COVID-19-Publication-Dashboard)
-* [COVID-19 wider impacts dashboard](https://github.com/Public-Health-Scotland/covid-wider-impacts/tree/master/shiny_app)
-* [ScotPHO profiles](https://github.com/Public-Health-Scotland/scotpho-profiles-tool)
+For more information (and access to a full technical handover document for PHS colleagues), please contact [phs.egm@phs.scot] (mailto:phs.egm@phs.scot)
