@@ -9,8 +9,8 @@ However, it will soon be replaced by two other evidence and gap maps at the same
 * `setup.R` contains required packages and is where any data should be read in
 * `data` is a folder for storing data to be read in (not available on GitHub). This data is processed in the data_preparation script.
 * `www` contains the app stylesheets and PHS icon images
-* `server' contains server functions
-* 'ui contains UI functions
+* `server` contains server functions
+* `ui` contains UI functions
 * `functions` contains R scripts with functions for the app
 
 ## More information
