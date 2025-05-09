@@ -1,0 +1,14 @@
+phsstyles-package	phsstyles
+phsstyles	phsstyles
+phs_colors	phs_colours
+phs_colours	phs_colours
+phs_colour_values	phs_data
+phs_palettes	phs_data
+phs_palette_types	phs_data
+scale_color_continuous_phs	scale_colour_continuous_phs
+scale_color_discrete_phs	scale_colour_discrete_phs
+scale_colour_continuous_phs	scale_colour_continuous_phs
+scale_colour_discrete_phs	scale_colour_discrete_phs
+scale_fill_continuous_phs	scale_fill_continuous_phs
+scale_fill_discrete_phs	scale_fill_discrete_phs
+theme_phs	theme_phs

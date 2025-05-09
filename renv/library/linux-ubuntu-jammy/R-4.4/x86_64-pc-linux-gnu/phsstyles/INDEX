@@ -1,0 +1,13 @@
+phs_colour_values       PHS colours and colour palettes
+phs_colours             Return hex value for specific named colours
+phsstyles               'phsstyles' package
+scale_colour_continuous_phs
+                        Continuous colour scales for PHS
+scale_colour_discrete_phs
+                        Discrete colour scales for PHS
+scale_fill_continuous_phs
+                        Continuous colour filling scales for PHS
+scale_fill_discrete_phs
+                        Discrete colour filling scales for PHS
+theme_phs               Public Health Scotland theme for ggplot2
+                        charts.

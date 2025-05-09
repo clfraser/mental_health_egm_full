@@ -1,0 +1,35 @@
+Package: phsstyles
+Title: Standard Graphic Styles for use in Public Health Scotland
+Version: 0.1.2
+Authors@R: c(
+    person("Tina", "Fu", email = "Yuyan.Fu2@phs.scot", role = c("aut", "cre")), 
+    person("Bob", "Taylor", email = "bob.taylor2@phs.scot", role = "aut")
+    )
+Description: Bespoke functions for creating graphics and visualisations in Public Health Scotland.
+License: MIT + file LICENSE
+URL: https://github.com/Public-Health-Scotland/phsstyles,
+        https://public-health-scotland.github.io/phsstyles/
+BugReports: https://github.com/Public-Health-Scotland/phsstyles/issues
+Depends: R (>= 2.10)
+Imports: ggplot2, scales
+Suggests: testthat (>= 3.0.0)
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.1
+Config/testthat/edition: 3
+RemoteType: github
+RemoteHost: api.github.com
+RemoteRepo: phsstyles
+RemoteUsername: Public-Health-Scotland
+RemoteRef: HEAD
+RemoteSha: e7127a0fd2b407be27e0c2e16f5a89760435cf97
+GithubRepo: phsstyles
+GithubUsername: Public-Health-Scotland
+GithubRef: HEAD
+GithubSHA1: e7127a0fd2b407be27e0c2e16f5a89760435cf97
+NeedsCompilation: no
+Packaged: 2025-05-09 12:43:25 UTC; elizar06
+Author: Tina Fu [aut, cre],
+  Bob Taylor [aut]
+Maintainer: Tina Fu <Yuyan.Fu2@phs.scot>
+Built: R 4.4.2; ; 2025-05-09 12:43:28 UTC; unix
